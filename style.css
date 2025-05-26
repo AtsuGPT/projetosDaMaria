@@ -140,6 +140,20 @@
             animation: moverGradiante 5s linear infinite;
         }
 
+.mood-range label {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            flex-direction: column;
+        }
+input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked + label {
+      border: 2px solid #e289b6; /* rosa */
+      background-color: #b80c5a;
+      transform: scale(1.02);
+    }
 @keyframes moverGradiante {
             0% {
                 background-position: 0% 50%;
