@@ -151,22 +151,3 @@
                 background-position: 0% 50%;
             }
 }
-
-input[type="range"]::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            width: 20px;
-            height: 20px;
-            background: purple;
-            border-radius: 50%;
-            cursor: pointer;
-            margin-top: -4px; 
-            transition: transform 0.2s ease;
-            border: none;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-        }
-input[type="range"]::-webkit-slider-runnable-track {
-            width: 100%;
-            height: 10px;
-            background: linear-gradient(120deg, rgba(198, 30, 236, 0.8), rgb(248, 248, 248));
-            border-radius: 5px;
-        }
