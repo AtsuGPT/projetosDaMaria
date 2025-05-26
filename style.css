@@ -1,3 +1,213 @@
+<<<<<<< HEAD
+body {
+  background: #111111;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  color: white;
+  position: relative;
+}
+
+.pergunta {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-family: "Font Awesome 5 Brands";
+}
+
+.pergunta h2 {
+  font-size: 2rem;
+  font-family: "Font Awesome 5 Brands";
+  color: white;
+}
+
+.h2pergunta {
+  display: inline-block;
+  animation: shake 6.5s infinite;
+  
+}
+
+.resultado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color:aliceblue;
+  font-family: "Font Awesome 5 Brands";
+}
+
+.intro {
+  font-size: 1.5rem;
+  font-family: "Font Awesome 5 Brands";
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.start {
+  background-color: #290755;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+  transform: scale(0.95);
+  pointer-events: none;
+}
+.options-grid{
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.option {
+  background-color: #1a1a1a;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.0rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.correta {
+  background-color: #2ecc71;
+}
+button.errada {
+  background-color: #e74c3c;
+}
+
+@keyframes shake {
+  0%   { transform: translate(0px, 0px) rotate(0deg); }
+  25%  { transform: translate(1px, -1px) rotate(-1deg); }
+  50%  { transform: translate(-1px, 1px) rotate(1deg); }
+  75%  { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(-1deg); }
+}
+
+button:hover {
+  background-color: #3786be;
+  cursor: pointer;
+}
+
+
+.parallax {
+  position: fixed;
+  font-size: 0.5rem;
+  font-family: "Font Awesome 5 Brands";
+}
+
+#_1_css3::before {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  text-shadow: 327px 1814px, 1230px 1618px, 601px 876px, 1238px 1907px, 944px 961px, 1075px 957px, 1203px 33px, 1838px 907px, 600px 495px, 544px 435px, 802px 1362px, 324px 1785px, 781px 574px, 856px 1446px, 406px 862px, 1588px 1953px, 1955px 1465px, 1127px 293px, 719px 1004px, 1282px 693px, 1012px 1754px, 496px 1720px, 233px 1395px, 1175px 1568px, 116px 1595px, 1818px 17px, 911px 1823px, 1963px 1117px, 1772px 584px, 526px 267px, 77px 1969px, 1953px 1358px, 398px 678px, 1699px 1667px, 1158px 1298px, 619px 43px, 891px 1762px, 100px 536px, 17px 682px, 813px 1706px, 1552px 1414px, 932px 1530px, 344px 1383px, 225px 360px, 1443px 169px, 1043px 1333px, 1186px 936px, 1941px 1686px, 982px 1764px, 213px 1246px, 1462px 68px, 206px 734px, 565px 1906px, 706px 1544px, 1261px 211px, 1354px 852px, 757px 1904px, 1636px 1093px, 827px 312px, 1740px 324px, 186px 1336px, 1117px 1294px, 1971px 1920px, 344px 1419px, 383px 888px, 390px 538px, 795px 1816px, 527px 1014px, 1628px 1454px, 294px 500px, 1310px 233px, 222px 415px, 1506px 349px, 1723px 847px, 220px 603px;
+  -webkit-animation: animIcon 150s linear infinite;
+          animation: animIcon 150s linear infinite;
+}
+
+#_1_css3::after {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  top: 2000px;
+  text-shadow: 327px 1814px, 1230px 1618px, 601px 876px, 1238px 1907px, 944px 961px, 1075px 957px, 1203px 33px, 1838px 907px, 600px 495px, 544px 435px, 802px 1362px, 324px 1785px, 781px 574px, 856px 1446px, 406px 862px, 1588px 1953px, 1955px 1465px, 1127px 293px, 719px 1004px, 1282px 693px, 1012px 1754px, 496px 1720px, 233px 1395px, 1175px 1568px, 116px 1595px, 1818px 17px, 911px 1823px, 1963px 1117px, 1772px 584px, 526px 267px, 77px 1969px, 1953px 1358px, 398px 678px, 1699px 1667px, 1158px 1298px, 619px 43px, 891px 1762px, 100px 536px, 17px 682px, 813px 1706px, 1552px 1414px, 932px 1530px, 344px 1383px, 225px 360px, 1443px 169px, 1043px 1333px, 1186px 936px, 1941px 1686px, 982px 1764px, 213px 1246px, 1462px 68px, 206px 734px, 565px 1906px, 706px 1544px, 1261px 211px, 1354px 852px, 757px 1904px, 1636px 1093px, 827px 312px, 1740px 324px, 186px 1336px, 1117px 1294px, 1971px 1920px, 344px 1419px, 383px 888px, 390px 538px, 795px 1816px, 527px 1014px, 1628px 1454px, 294px 500px, 1310px 233px, 222px 415px, 1506px 349px, 1723px 847px, 220px 603px;
+  -webkit-animation: animIcon 150s linear infinite;
+          animation: animIcon 150s linear infinite;
+}
+
+#_2_css3::before {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  font-size: 0.8rem;
+  text-shadow: 973px 752px, 194px 1235px, 230px 624px, 1343px 15px, 259px 94px, 1962px 1550px, 1447px 702px, 224px 1953px, 1732px 67px, 1085px 765px, 269px 1626px, 1190px 594px, 1433px 1321px, 1338px 493px, 1295px 840px, 533px 1417px, 1917px 543px, 235px 1544px, 422px 832px, 404px 195px, 197px 165px, 1020px 423px, 1843px 994px, 179px 1469px, 1323px 1525px, 819px 240px, 971px 912px, 524px 1439px, 157px 1021px, 1619px 1666px, 552px 131px, 1572px 622px, 207px 1209px, 1898px 1702px, 1438px 300px, 1386px 334px, 532px 975px, 893px 632px, 624px 386px, 612px 31px, 1822px 143px, 639px 580px, 445px 1313px, 313px 1828px, 1403px 1350px, 109px 869px, 1290px 187px, 853px 1006px, 1548px 324px, 1787px 320px, 1336px 61px, 877px 314px, 351px 1243px, 1794px 1781px, 1746px 390px;
+  -webkit-animation: animIcon 125s linear infinite;
+          animation: animIcon 125s linear infinite;
+}
+
+#_2_css3::after {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  font-size: 0.8rem;
+  top: 2000px;
+  text-shadow: 973px 752px, 194px 1235px, 230px 624px, 1343px 15px, 259px 94px, 1962px 1550px, 1447px 702px, 224px 1953px, 1732px 67px, 1085px 765px, 269px 1626px, 1190px 594px, 1433px 1321px, 1338px 493px, 1295px 840px, 533px 1417px, 1917px 543px, 235px 1544px, 422px 832px, 404px 195px, 197px 165px, 1020px 423px, 1843px 994px, 179px 1469px, 1323px 1525px, 819px 240px, 971px 912px, 524px 1439px, 157px 1021px, 1619px 1666px, 552px 131px, 1572px 622px, 207px 1209px, 1898px 1702px, 1438px 300px, 1386px 334px, 532px 975px, 893px 632px, 624px 386px, 612px 31px, 1822px 143px, 639px 580px, 445px 1313px, 313px 1828px, 1403px 1350px, 109px 869px, 1290px 187px, 853px 1006px, 1548px 324px, 1787px 320px, 1336px 61px, 877px 314px, 351px 1243px, 1794px 1781px, 1746px 390px;
+  -webkit-animation: animIcon 125s linear infinite;
+          animation: animIcon 125s linear infinite;
+}
+
+#_3_css3::before {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  font-size: 1.1rem;
+  text-shadow: 1212px 888px, 1013px 874px, 1344px 25px, 1763px 1235px, 1818px 1929px, 76px 704px, 1854px 1074px, 1002px 1270px, 1361px 873px, 600px 1566px, 1750px 1963px, 977px 703px, 112px 1323px, 67px 1466px, 1096px 1227px, 1480px 1245px, 1781px 900px, 1439px 436px, 474px 548px, 1830px 780px, 816px 984px, 1633px 36px, 867px 1342px, 1997px 1673px, 944px 149px, 214px 1282px, 1201px 1609px, 353px 132px, 706px 563px;
+  -webkit-animation: animIcon 100s linear infinite;
+          animation: animIcon 100s linear infinite;
+}
+
+#_3_css3::after {
+  content: "\f13c";
+  color: #2673aa;
+  position: absolute;
+  font-size: 1.1rem;
+  top: 2000px;
+  text-shadow: 1212px 888px, 1013px 874px, 1344px 25px, 1763px 1235px, 1818px 1929px, 76px 704px, 1854px 1074px, 1002px 1270px, 1361px 873px, 600px 1566px, 1750px 1963px, 977px 703px, 112px 1323px, 67px 1466px, 1096px 1227px, 1480px 1245px, 1781px 900px, 1439px 436px, 474px 548px, 1830px 780px, 816px 984px, 1633px 36px, 867px 1342px, 1997px 1673px, 944px 149px, 214px 1282px, 1201px 1609px, 353px 132px, 706px 563px;
+  -webkit-animation: animIcon 100s linear infinite;
+          animation: animIcon 100s linear infinite;
+}
+
+@-webkit-keyframes animIcon {
+  from {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes animIcon {
+  from {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
+=======
         body {
             font-family: 'Inter', 'Helvetica Neue', sans-serif;
             overflow: hidden;
@@ -170,3 +380,4 @@ input[type="range"]::-webkit-slider-runnable-track {
             background: linear-gradient(120deg, rgba(198, 30, 236, 0.8), rgb(248, 248, 248));
             border-radius: 5px;
         }
+>>>>>>> ba7de0fcf8606c689ff7b31d16fbfbaa6d2d91ef
